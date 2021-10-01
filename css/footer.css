@@ -1,0 +1,50 @@
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    background: #141414;
+}
+.footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container .rsx{
+    padding-top: 30px;
+}
+.footer .container .rsx a{
+    margin: 5px;
+}
+.footer .container .rsx a i {
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+}
+.footer .container .rsx a :hover{
+    color: #0080FF;
+    transition: .5s;
+}
+.footer .container .links{
+    padding-top: 30px;
+}
+.footer .container .links a{
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    transition: .5S;
+}
+.footer .container .links a:hover{
+    color: #0080FF;
+    transition: .5S;
+}
+.footer .container .description{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+.footer .container .me{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 10px;
+}

@@ -1,0 +1,95 @@
+.work{
+    padding-top: 100px;
+}
+.work h2{
+  text-align: center;
+  color: #141414;
+}
+.btnlist{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.btnlist .btn{
+  margin: 10px;
+  border: none;
+  width: 120px;
+  height: 30px;
+  color: #141414;
+  background-color: #f8f8f8;
+  transition: .3s;
+  cursor: pointer;
+}
+.btnlist .btn:hover{
+  background: #0080FF;
+  color: #fff;
+  transition: .3s;
+}
+.grid{
+padding-top: 30px;
+display: flex;
+flex-direction: column;
+width: 90%;
+margin-left: 5%;
+}
+.work1{
+  width: 35%;
+  margin-right: 5%;
+  border: 1px solid #f8f8f8;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.workimg{
+  margin-top: 10px;
+  margin-left: 5%;
+  width: 90%;
+}
+.workimg img{
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(3px);
+	filter: blur(3px);
+	transition: .3s ease-in-out;
+}
+.workimg img:hover{
+  -webkit-filter: blur(0);
+	filter: blur(0);
+}
+.work1 .title{
+  text-align: center;
+  color: #141414;
+}
+.work1 .circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0080FF;
+  cursor: pointer;
+}
+.work1 .circle i{
+  color: white;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+
+@media screen and (max-width:758px) {
+  .grid{
+    flex-direction: column;
+  }
+  .work1{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .btnlist .btn{
+    width: 100px;
+    font-size: 9px;
+  }
+}
